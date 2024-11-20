@@ -1,0 +1,21 @@
+button {
+    height: 40px;
+    width: 200px;
+    font-family: Impact;
+    background-color: blue;
+    color: white;
+    font-size: large;
+}
+
+#NavigationBar {
+    position:absolute;
+    left:50%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#banner {
+    display: flex;
+    background-color: aquamarine;
+    padding-left: 30px;
+}
