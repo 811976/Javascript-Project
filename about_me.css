@@ -1,3 +1,7 @@
+body {
+    background-color: cornflowerblue;
+}
+
 img {
     height: 100px
 }
@@ -30,9 +34,8 @@ button {
 
 ol {
     list-style-type: none;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0px;
     display: flex;
-    padding-inline: 40px;
 }

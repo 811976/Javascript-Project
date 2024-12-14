@@ -1,3 +1,7 @@
+body {
+    background-color: cornflowerblue;
+}
+
 button {
     height: 40px;
     width: 200px;
@@ -18,4 +22,26 @@ button {
     display: flex;
     background-color: aquamarine;
     padding-left: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+#halfLength {
+    max-width: 50%;
+}
+
+#animation {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    background: transparent;
+    border: none !important;
+    font-size: 0px;
+}
+
+#boatSprite {
+    width: 200px;
+    rotate: -90deg;
 }

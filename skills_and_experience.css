@@ -1,3 +1,7 @@
+body {
+    background-color: cornflowerblue;
+}
+
 button {
     height: 40px;
     width: 200px;
@@ -18,4 +22,27 @@ button {
     display: flex;
     background-color: aquamarine;
     padding-left: 30px;
+}
+
+#bold {
+    font-weight: bold
+}
+
+.center {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+th {
+    font-size: xx-large;
+}
+
+td {
+    font-size: x-large;
 }

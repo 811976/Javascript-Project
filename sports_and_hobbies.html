@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="sports_and_hobbies.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <div id="banner">
         <h1>Sports & Hobbies</h1>
@@ -12,18 +13,59 @@
     </div>
 </head>
 <body>
-    <div>
+    <button id="animation">
+        <img id="boatSprite" src="/Users/jonny/Documents/GitHub/Javascript-Project/Images/boatSprite.png">
+    </button>
+    <div id="halfLength">
         <ul>
             <h3>Rowing:</h3>
-            <li>How rowing has changed my life</li>
+            <li>How rowing has changed my life... Lorem ipsum odor amet, 
+                consectetuer adipiscing elit. Taciti curabitur tortor congue 
+                eu sagittis congue efficitur natoque lobortis. Ullamcorper 
+                tellus in class libero ex? At montes neque tellus interdum 
+                auctor finibus sociosqu ut? Lacinia adipiscing auctor lacinia 
+                nulla sodales consequat donec nec. Fringilla finibus fames 
+                montes per; ut habitant consequat. Nullam quis suscipit erat 
+                venenatis fringilla elit litora. Feugiat morbi vulputate 
+                tortor nulla finibus odio. Maximus lorem quam curae facilisis 
+                eu aenean.</li>
             <h3>Parkour:</h3>
-            <li>Opinions about the discipline of parkour</li>
+            <li>Opinions about the discipline of parkour... Duis auctor non 
+                himenaeos at himenaeos mauris praesent. Habitasse id massa 
+                auctor libero inceptos ligula. Facilisis dictum faucibus 
+                ligula euismod habitasse. Id elementum congue vestibulum dui 
+                risus; sit turpis. Eleifend facilisi lobortis parturient 
+                auctor taciti curae; accumsan hendrerit. Euismod dui tristique 
+                elementum nibh ornare dis nascetur. Rhoncus netus praesent 
+                risus dictum erat. Efficitur netus semper vel velit donec 
+                fermentum vulputate.</li>
             <h3>Designing/ Modeling:</h3>
-            <li>List some crafts/ projects</li>
+            <li>List some crafts/ projects... Mauris nullam curabitur porta 
+                ipsum est metus rutrum turpis. Senectus iaculis neque 
+                vulputate potenti per risus proin metus. Egestas natoque 
+                efficitur senectus nibh pretium dignissim a bibendum 
+                efficitur. Senectus aliquet elementum praesent sollicitudin 
+                rutrum mus. Ridiculus sed ultrices egestas libero vehicula. 
+                Imperdiet arcu lacus viverra dis aenean dapibus euismod. 
+                Mollis vehicula nibh semper nostra cubilia parturient taciti 
+                conubia?</li>
             <h3>Entrepreneurship:</h3>
-            <li>Budgeting, Marketing, Investing, and Earning Money</li>
+            <li>Budgeting, Marketing, Investing, and Earning Money... 
+                Curabitur pharetra varius dui massa gravida ad duis. In 
+                suspendisse leo feugiat nibh lacus justo ullamcorper maximus. 
+                Platea orci enim metus cubilia tempus. Taciti ipsum sagittis 
+                efficitur mollis dapibus urna tortor potenti. Condimentum 
+                parturient volutpat condimentum ex sagittis mollis primis. 
+                Eget rutrum aliquet parturient duis aliquet. Dignissim integer 
+                pharetra ultrices duis donec risus sociosqu.</li>
         </ul>
     </div>
+    <h1>Click the Boat!</h1>
 
     <script src="sports_and_hobbies.js"></script>
+    <script>
+        $("#animation").click(function(){
+            $("#animation").animate({top: '600px'});
+        }); 
+    </script>
 </body>
